@@ -16,6 +16,7 @@
 		"issues": "https://github.com/Kappa-org/Mail/issues"
 	},
 	"require": {
+		"nette/di": "~2.2@dev",
 		"nette/mail": "~2.2@dev"
 	},
 	"require-dev": {
