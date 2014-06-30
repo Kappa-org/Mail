@@ -21,7 +21,8 @@
 		"nette/application": "~2.2@dev"
 	},
 	"require-dev": {
-		"kappa/tester": "~1.1"
+		"kappa/tester": "~1.1",
+		"janmarek/mockista": "~1.0@dev"
 	},
 	"autoload": {
 		"psr-0": {
