@@ -1,0 +1,32 @@
+{
+	"name": "kappa/mail",
+	"description": "",
+	"keywords": ["Kappa", "mail", "email", "message", "factory"],
+	"homepage": "https://github.com/Kappa-org/Mail",
+	"license": "BSD-3-Clause",
+	"type": "library",
+	"authors": [
+		{
+			"name": "Ondřej Záruba",
+			"homepage": "http://zaruba-ondrej.cz"
+		}
+	],
+	"support": {
+		"email": "zarubaondra@gmail.com",
+		"issues": "https://github.com/Kappa-org/Mail/issues"
+	},
+	"require": {
+		"nette/mail": "~2.2@dev"
+	},
+	"require-dev": {
+		"kappa/tester": "~1.1"
+	},
+	"autoload": {
+		"psr-0": {
+			"Kappa": "src/"
+		},
+		"classmap": [
+			"src/Kappa/Mail/exceptions.php"
+		]
+	}
+}
