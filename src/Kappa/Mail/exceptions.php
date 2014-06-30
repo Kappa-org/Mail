@@ -9,3 +9,12 @@
  */
 
 namespace Kappa\Mail;
+
+/**
+ * Class InvalidArgumentException
+ * @package Kappa\Mail
+ */
+class InvalidArgumentException extends \LogicException
+{
+
+}
