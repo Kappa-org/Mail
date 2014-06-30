@@ -36,13 +36,13 @@ class MessageBuilderTest extends TestCase
 	{
 		$options = [
 			'from' => 'Budry <test@from.com>',
-			'replyTo' => ['reply1@test.com', 'reply2@test.com'],
 			'subject' => 'Subject',
+			'returnPath' => 'return/path',
+			'priority' => '1000',
+			'replyTo' => ['reply1@test.com', 'reply2@test.com'],
 			'to' => ['to1@test.com', 'to2@test.com'],
 			'cc' => ['cc1@test.com', 'cc2@test.com'],
 			'bcc' => ['bcc1@test.com', 'bcc2@test.com'],
-			'returnPath' => 'return/path',
-			'priority' => '1000',
 			'embeddedFile' => [__FILE__],
 			'attachment' => [__FILE__]
 		];
