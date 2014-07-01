@@ -1,0 +1,7 @@
+extensions:
+	messages: Kappa\Mail\DI\MailExtension
+
+
+messages:
+	noreply:
+		from: noreply@example.com
