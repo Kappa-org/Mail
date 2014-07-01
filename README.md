@@ -1,6 +1,6 @@
 # Kappa\Mail
 
-Package for more comfortable works with Nette\Mail\Message
+Package for more comfortable works with ```Nette\Mail\Message```
 
 ## Requirements:
 
